@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nIiwiYSI6IjAyYzIwYTJjYTVhMzUxZTVkMzdmYTQ2YzBmMTM0ZDAyIn0.owNd_Qa7Sw2neNJbK6zc1A';
+mapboxgl.accessToken = 'pk.eyJ1IjoibmF0LWdvbWV6IiwiYSI6ImNqdW4yYjI0ZzJvNzgzeW8ya2JmaGF3NmwifQ.qz1eZvz1hW0k6kOqtnFpTg';
 
 
 var map = new mapboxgl.Map({
@@ -20,6 +20,8 @@ var marker = new mapboxgl.Marker()
   .addTo(map);
 
 // pk.eyJ1IjoibmF0LWdvbWV6IiwiYSI6ImNqdW4yYjI0ZzJvNzgzeW8ya2JmaGF3NmwifQ.qz1eZvz1hW0k6kOqtnFpTg
+// Below is that website where I got my rodent data from
+// https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data
 
 servicerequestdata.forEach(function(rodentData) {
 
